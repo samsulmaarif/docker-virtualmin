@@ -1,6 +1,6 @@
 FROM debian:jessie-slim
 
-LABEL virtualmin
+#LABEL virtualmin
 
 MAINTAINER Samsul Ma'arif <hay@samsul.web.id>
 
