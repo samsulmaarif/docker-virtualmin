@@ -8,7 +8,7 @@ MAINTAINER Samsul Ma'arif <hay@samsul.web.id>
 RUN printf admin\\nadmin\\n | passwd
 
 RUN apt-get update \
-	&& apt-get -y install wget perl iptables \
+	&& apt-get -y install wget perl iptables apt-utils apt-show-versions \
 	&& wget http://software.virtualmin.com/gpl/scripts/install.sh \
 	&& apt-get -y autoremove
 
